@@ -1,0 +1,3 @@
+Sitemap: https://nihatsirinn.github.io/make-money-online/sitemap.xml
+User-agent: *
+Disallow:
