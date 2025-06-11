@@ -484,30 +484,7 @@
     return div.innerHTML;
   }
 
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-
-    const name = form.name.value.trim();
-    const email = form.email.value.trim();
-    const comment = form.comment.value.trim();
-
-    if (!name || !email || !comment) {
-      alert('Please fill all fields');
-      return;
-    }
-    // Simple email validation
-    if (!email.match(/^[^@]+@[^@]+\.[^@]+$/)) {
-      alert('Please enter a valid email');
-      return;
-    }
-
-    const newComment = { name, email, comment, date: new Date().toISOString() };
-    const comments = JSON.parse(sessionStorage.getItem('comments')) || [];
-    comments.push(newComment);
-    sessionStorage.setItem('comments', JSON.stringify(comments));
-
-    loadComments();
-    form.reset();
+  
   });
 
   loadComments();
