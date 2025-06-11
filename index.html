@@ -3,508 +3,153 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Top 10 Proven Ways to Make Money Online in the USA | Nihat Şirin</title>
+  <title>Make Money Online in the USA - Ultimate Guide by Nihat Şirin</title>
+  <meta name="description" content="Explore top proven strategies to make money online. A comprehensive guide crafted for Americans looking to earn income from home." />
+  <meta name="keywords" content="make money online, USA, work from home, side hustle, passive income" />
+  <meta name="author" content="Nihat Şirin" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    /* Temel Stil ve Responsive */
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    * {margin: 0; padding: 0; box-sizing: border-box;}
     body {
-      font-family: 'Open Sans', sans-serif;
-      margin: 0; padding: 0;
-      background: #f9f9f9;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fa;
       color: #222;
-      line-height: 1.6;
-      transition: background 0.3s, color 0.3s;
-      opacity: 0;
-      animation: fadeIn 1s forwards;
+      line-height: 1.8;
+      padding: 20px;
     }
-
-    /* Fade-in Animasyon */
-    @keyframes fadeIn {
-      to { opacity: 1; }
-    }
-
-    /* Koyu Tema */
-    body.dark {
-      background: #121212;
-      color: #e0e0e0;
-    }
-
     header, footer {
-      background-color: #0a74da;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
       color: white;
-      padding: 15px 20px;
       text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
+      padding: 40px 20px;
     }
-
-    header.dark, footer.dark {
-      background-color: #004080;
-    }
-
-    h1, h2, h3 {
-      margin-top: 0;
-    }
-
-    main {
-      max-width: 960px;
-      margin: 30px auto;
-      padding: 0 15px;
-    }
-
-    /* Menü */
     nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 10px 0 30px 0;
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
+      list-style: none;
+      margin: 20px 0;
     }
-
     nav ul li a {
       text-decoration: none;
-      color: #0a74da;
+      color: white;
       font-weight: 600;
-      transition: color 0.3s;
     }
-
-    nav ul li a:hover {
-      color: #004080;
-    }
-
-    body.dark nav ul li a {
-      color: #4ea1ff;
-    }
-
-    body.dark nav ul li a:hover {
-      color: #8ec5ff;
-    }
-
-    /* Makale Kartları */
-    article.method {
+    section {
+      max-width: 900px;
+      margin: 40px auto;
       background: white;
-      border-radius: 8px;
-      box-shadow: 0 3px 8px rgb(0 0 0 / 0.1);
-      padding: 20px;
-      margin-bottom: 25px;
-      transition: background 0.3s, color 0.3s;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
     }
-
-    body.dark article.method {
-      background: #1e1e1e;
-      box-shadow: 0 3px 8px rgb(255 255 255 / 0.05);
-    }
-
-    article.method img {
-      max-width: 100%;
-      border-radius: 6px;
-      margin: 15px 0;
-      box-shadow: 0 3px 6px rgb(0 0 0 / 0.2);
-      transition: transform 0.3s ease;
-      cursor: pointer;
-    }
-
-    article.method img:hover {
-      transform: scale(1.03);
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    /* Popüler Yazılar Modülü */
-    #popular-posts {
-      background: #fffbe6;
-      border: 1px solid #f0e68c;
-      padding: 15px 20px;
-      border-radius: 8px;
-      margin-bottom: 40px;
-      max-width: 300px;
-      font-size: 0.95rem;
-      box-shadow: 0 3px 8px rgb(0 0 0 / 0.08);
-    }
-
-    body.dark #popular-posts {
-      background: #3a3a2c;
-      border-color: #7a7a40;
-      color: #f0f0b0;
-      box-shadow: 0 3px 8px rgb(255 255 255 / 0.05);
-    }
-
-    #popular-posts h2 {
-      font-size: 1.2rem;
-      margin-bottom: 10px;
-      color: #d99e1f;
-    }
-
-    #popular-posts ul {
-      list-style: decimal inside;
-      margin: 0;
-      padding: 0;
-    }
-
-    #popular-posts ul li {
-      margin-bottom: 8px;
-    }
-
-    #popular-posts ul li a {
-      color: #b37800;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
-
-    #popular-posts ul li a:hover {
-      color: #ffbf00;
-    }
-
-    body.dark #popular-posts ul li a {
-      color: #f0d54a;
-    }
-
-    body.dark #popular-posts ul li a:hover {
-      color: #ffe066;
-    }
-
-    /* Abonelik Formu */
-    #subscribe-form {
-      background: #e8f4fc;
-      border-radius: 8px;
-      padding: 20px;
-      margin-bottom: 40px;
-      max-width: 400px;
-      box-shadow: 0 3px 8px rgb(0 0 0 / 0.1);
-    }
-
-    body.dark #subscribe-form {
-      background: #2a3d54;
-      box-shadow: 0 3px 8px rgb(255 255 255 / 0.1);
-    }
-
-    #subscribe-form h2 {
-      margin-top: 0;
-      margin-bottom: 10px;
+    h1, h2 {
       color: #0a74da;
+      margin-bottom: 20px;
     }
-
-    body.dark #subscribe-form h2 {
-      color: #74a9ff;
+    h3 {
+      margin-top: 25px;
+      color: #333;
     }
-
-    #subscribe-form input[type="email"] {
+    p {
+      margin-bottom: 15px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    #subscribe {
+      background: #e8f4ff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    input[type="email"] {
+      padding: 10px;
       width: 70%;
-      padding: 8px 10px;
+      max-width: 300px;
       border: 1px solid #ccc;
       border-radius: 5px 0 0 5px;
-      font-size: 1rem;
-      outline: none;
-      transition: border-color 0.3s;
     }
-
-    #subscribe-form input[type="email"]:focus {
-      border-color: #0a74da;
-    }
-
-    body.dark #subscribe-form input[type="email"] {
-      background: #1a2a4a;
-      color: #e0e0e0;
-      border-color: #3f6ad8;
-    }
-
-    #subscribe-form button {
-      width: 30%;
-      padding: 9px 0;
+    button {
+      padding: 10px 20px;
       background: #0a74da;
       color: white;
       border: none;
       border-radius: 0 5px 5px 0;
-      font-weight: 700;
       cursor: pointer;
-      transition: background 0.3s;
     }
-
-    #subscribe-form button:hover {
-      background: #004080;
-    }
-
-    body.dark #subscribe-form button {
-      background: #4a6df5;
-    }
-
-    body.dark #subscribe-form button:hover {
-      background: #2a49b8;
-    }
-
-    /* Back to Top Butonu */
-    #backToTopBtn {
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
-      display: none;
-      background-color: #0a74da;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      width: 48px;
-      height: 48px;
-      cursor: pointer;
-      font-size: 22px;
-      box-shadow: 0 3px 6px rgb(0 0 0 / 0.3);
-      transition: background-color 0.3s;
-      z-index: 10000;
-    }
-
-    #backToTopBtn:hover {
-      background-color: #004080;
-    }
-
-    body.dark #backToTopBtn {
-      background-color: #4a6df5;
-    }
-
-    body.dark #backToTopBtn:hover {
-      background-color: #2a49b8;
-    }
-
-    /* Dark Mode Toggle */
-    #darkModeToggle {
-      position: fixed;
-      top: 15px;
-      right: 15px;
-      background: #0a74da;
-      border: none;
-      color: white;
-      padding: 8px 12px;
-      border-radius: 20px;
-      cursor: pointer;
-      font-weight: 700;
-      box-shadow: 0 3px 6px rgb(0 0 0 / 0.2);
-      z-index: 10001;
-      transition: background-color 0.3s;
-    }
-
-    #darkModeToggle:hover {
-      background-color: #004080;
-    }
-
-    body.dark #darkModeToggle {
-      background-color: #4a6df5;
-    }
-
-    body.dark #darkModeToggle:hover {
-      background-color: #2a49b8;
-    }
-
-    /* Footer */
-    footer p {
-      margin: 0;
-      font-size: 0.9rem;
-      opacity: 0.8;
-    }
-
-    /* Responsive */
-    @media (max-width: 600px) {
-      nav ul {
-        flex-direction: column;
-        gap: 10px;
-      }
-      #subscribe-form input[type="email"] {
-        width: 100%;
-        border-radius: 5px;
-        margin-bottom: 10px;
-      }
-      #subscribe-form button {
-        width: 100%;
-        border-radius: 5px;
-      }
-      #popular-posts {
-        max-width: 100%;
-      }
+    footer {
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-
-  <button id="darkModeToggle" aria-label="Toggle dark mode">Dark Mode</button>
-
   <header>
-    <h1>Top 10 Proven Ways to Make Money Online in the USA</h1>
+    <h1>Top 10 Ways to Make Money Online</h1>
+    <p>Your roadmap to financial independence from home in the USA</p>
     <nav>
       <ul>
-        <li><a href="#freelancing">Freelancing</a></li>
-        <li><a href="#affiliate">Affiliate Marketing</a></li>
-        <li><a href="#online-courses">Online Courses</a></li>
-        <li><a href="#dropshipping">Dropshipping</a></li>
-        <li><a href="#remote-jobs">Remote Work</a></li>
-        <li><a href="#blogging">Blogging</a></li>
-        <li><a href="#youtube">YouTube Channel</a></li>
-        <li><a href="#stock-photography">Stock Photography</a></li>
-        <li><a href="#print-on-demand">Print on Demand</a></li>
-        <li><a href="#virtual-assistant">Virtual Assistant</a></li>
+        <li><a href="#freelance">Freelance</a></li>
+        <li><a href="#affiliate">Affiliate</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#youtube">YouTube</a></li>
+        <li><a href="#comments">Comments</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <section id="freelance">
+    <h2>1. Freelancing Platforms</h2>
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80" alt="Freelancing">
+    <p>Join sites like Upwork, Fiverr or Freelancer. Offer services in writing, design, programming, marketing and more.</p>
+  </section>
 
-    <!-- Popüler Yazılar -->
-    <aside id="popular-posts" aria-label="Most popular blog posts">
-      <h2>Popular Blog Posts</h2>
-      <ul>
-        <li><a href="#affiliate">How to Succeed in Affiliate Marketing</a></li>
-        <li><a href="#freelancing">Top Freelancing Skills in 2025</a></li>
-        <li><a href="#online-courses">Creating Profitable Online Courses</a></li>
-        <li><a href="#dropshipping">Dropshipping Tips for Beginners</a></li>
-        <li><a href="#blogging">How to Grow Your Blog Traffic Fast</a></li>
-      </ul>
-    </aside>
+  <section id="affiliate">
+    <h2>2. Affiliate Marketing</h2>
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Affiliate Marketing">
+    <p>Promote products using affiliate links. Earn commissions when people buy through your recommendations.</p>
+  </section>
 
-    <!-- Abonelik Formu -->
-    <section id="subscribe-form" aria-label="Subscribe to newsletter">
-      <h2>Subscribe for Updates</h2>
-      <form id="form-subscribe" novalidate>
-        <input type="email" id="email" placeholder="Enter your email" required aria-required="true" />
-        <button type="submit">Subscribe</button>
-      </form>
-      <p id="subscription-message" role="alert" aria-live="polite" style="margin-top:10px;"></p>
-    </section>
+  <section id="courses">
+    <h2>3. Create Online Courses</h2>
+    <p>Use platforms like Udemy, Teachable or Gumroad to turn your knowledge into paid video courses or eBooks.</p>
+  </section>
 
-    <!-- Ana İçerik -->
-    <section id="methods">
-      <article class="method" id="freelancing">
-        <h3>1. Freelancing — Sell Your Skills on Platforms Like Upwork & Fiverr</h3>
-        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" alt="Freelancing on laptop" />
-        <p>Freelancing remains one of the fastest ways to start earning online in the USA. Whether you have skills in writing, graphic design, programming, marketing, or video editing, you can find clients worldwide. Platforms like Upwork, Fiverr, Freelancer, and Toptal allow you to create a profile and bid on projects.</p>
-        <ul>
-          <li>Create a standout profile with a strong portfolio.</li>
-          <li>Start with competitive pricing to build reviews.</li>
-          <li>Communicate clearly and deliver on time to get repeat clients.</li>
-          <li>Focus on niche skills that are in high demand (e.g., web dev, SEO).</li>
-        </ul>
-        <p>Estimated earnings: $15 to $75+ per hour, depending on skill and experience.</p>
-      </article>
+  <section id="youtube">
+    <h2>4. Start a YouTube Channel</h2>
+    <p>Create content in niches like tech, finance, beauty, or education. Monetize with ads, sponsorships and merchandise.</p>
+  </section>
 
-      <article class="method" id="affiliate">
-        <h3>2. Affiliate Marketing — Earn Commissions by Promoting Products</h3>
-        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Affiliate marketing" />
-        <p>Affiliate marketing lets you promote products from companies like Amazon, ClickBank, or ShareASale and earn a commission on sales you generate. A blog, YouTube channel, or social media presence can be the foundation to start affiliate marketing.</p>
-        <ul>
-          <li>Choose a niche you are passionate about.</li>
-          <li>Build trust by providing honest reviews and tutorials.</li>
-          <li>Use SEO and paid ads to drive traffic.</li>
-          <li>Disclose affiliate links transparently for compliance.</li>
-        </ul>
-        <p>Potential earnings: From a few dollars monthly to thousands, depending on traffic and conversions.</p>
-      </article>
+  <section id="subscribe">
+    <h2>Subscribe to Our Newsletter</h2>
+    <form>
+      <input type="email" placeholder="Enter your email">
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
 
-      <article class="method" id="online-courses">
-        <h3>3. Create and Sell Online Courses or eBooks</h3>
-        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Online courses" />
-        <p>If you are an expert in a subject, packaging your knowledge into online courses or eBooks can be very profitable. Platforms like Udemy, Teachable, and Gumroad make this process easier.</p>
-        <ul>
-          <li>Identify a gap or problem your course can solve.</li>
-          <li>Create engaging video content or well-written eBooks.</li>
-          <li>Promote your course through blogs, email marketing, and social media.</li>
-          <li>Gather testimonials and update content regularly.</li>
-        </ul>
-        <p>Typical earnings: $100 to $10,000+ per month depending on course quality and marketing.</p>
-      </article>
-
-      <!-- Diğer 7 yöntem buraya eklenebilir, sen istersen söyleyebilirsin -->
-
-    </section>
-
-    <!-- Disqus Yorumları -->
-    <section id="comments" style="margin-top:50px;">
-      <div id="disqus_thread"></div>
-    </section>
-
-  </main>
+  <section id="comments">
+    <h2>Comments & Feedback</h2>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = window.location.href;
+        this.page.identifier = 'make-money-online-home';
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://https-nihatsirinn-github-io-make-money-online.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view comments powered by Disqus.</noscript>
+  </section>
 
   <footer>
-    <p>© 2025 Nihat Şirin. All rights reserved.</p>
+    <p>&copy; 2025 Nihat Şirin. All rights reserved. Built for make-money-online seekers in the USA.</p>
   </footer>
-
-  <!-- Back to Top Butonu -->
-  <button id="backToTopBtn" aria-label="Back to top">↑</button>
-
-  <script>
-    // Back to Top Butonu
-    const backToTopBtn = document.getElementById('backToTopBtn');
-    window.onscroll = () => {
-      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        backToTopBtn.style.display = "block";
-      } else {
-        backToTopBtn.style.display = "none";
-      }
-    };
-
-    backToTopBtn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
-    // Dark Mode Toggle
-    const darkModeToggle = document.getElementById('darkModeToggle');
-    const body = document.body;
-
-    // Kaydet ve yükle (localStorage)
-    if (localStorage.getItem('darkMode') === 'enabled') {
-      body.classList.add('dark');
-      darkModeToggle.textContent = 'Light Mode';
-    }
-
-    darkModeToggle.addEventListener('click', () => {
-      body.classList.toggle('dark');
-      if(body.classList.contains('dark')){
-        darkModeToggle.textContent = 'Light Mode';
-        localStorage.setItem('darkMode', 'enabled');
-      } else {
-        darkModeToggle.textContent = 'Dark Mode';
-        localStorage.setItem('darkMode', 'disabled');
-      }
-    });
-
-    // Abonelik Formu
-    const form = document.getElementById('form-subscribe');
-    const emailInput = document.getElementById('email');
-    const msg = document.getElementById('subscription-message');
-
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const email = emailInput.value.trim();
-      if(validateEmail(email)){
-        msg.style.color = 'green';
-        msg.textContent = 'Thanks for subscribing! We will keep you updated.';
-        emailInput.value = '';
-        // Buraya gerçek e-posta abonelik API entegrasyonu eklenebilir
-      } else {
-        msg.style.color = 'red';
-        msg.textContent = 'Please enter a valid email address.';
-      }
-    });
-
-    function validateEmail(email) {
-      // Basit e-posta doğrulama
-      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-    }
-
-    // Disqus Yorum Sistemi
-    var disqus_config = function () {
-      this.page.url = window.location.href;
-      this.page.identifier = 'make-money-online-usa-2025'; // Sayfanıza özel bir ID koyabilirsin
-    };
-
-    (function() {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://https-nihatsirinn-github-io-make-money-online.disqus.com/embed.js';  // BURAYA kendi shortname'ini koy
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-
-  <noscript>Please enable JavaScript to view comments powered by Disqus.</noscript>
-
 </body>
 </html>
