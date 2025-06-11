@@ -3,155 +3,391 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Discover powerful strategies to make money online in 2025. Learn freelancing, passive income, investing, affiliate marketing, and more." />
-  <meta name="keywords" content="make money online, earn from home, passive income, online jobs, side hustle, affiliate marketing, investing" />
-  <title>Ultimate Guide to Making Money Online in 2025</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>MakeMoneyFastNow - Your Ultimate Guide to Making Money Online</title>
+  <meta name="description" content="Learn proven and actionable ways to make real money online in 2025. Comprehensive guide with expert tips, strategies, and tools for financial freedom." />
+  <meta name="keywords" content="make money online, work from home, passive income, freelance, online business, blogging, ecommerce, USA" />
+  <meta name="author" content="Nihat Şirin" />
+  
   <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f0f2f5;
-      color: #333;
-      line-height: 1.8;
+    /* Reset and basics */
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
     }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7f6;
+      color: #333;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
     header {
-      background: linear-gradient(to right, #0073e6, #00b4d8);
+      background: linear-gradient(90deg, #0073e6 0%, #00c6ff 100%);
       color: white;
-      padding: 40px 20px;
+      padding: 20px 0;
       text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     header h1 {
-      margin: 0;
-      font-size: 36px;
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
     }
+    header p {
+      font-size: 1.1rem;
+      font-weight: 300;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      margin: 0 12px;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 8px 15px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 20px;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background: rgba(255,255,255,0.35);
+    }
+
     main {
-      max-width: 960px;
-      margin: auto;
-      padding: 40px 20px;
-      background: white;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      flex-grow: 1;
+      max-width: 1000px;
+      margin: 40px auto 60px;
+      padding: 0 20px;
     }
     section {
-      margin-bottom: 60px;
+      margin-bottom: 70px;
+      background: white;
+      padding: 30px 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+      transition: box-shadow 0.3s ease;
+    }
+    section:hover {
+      box-shadow: 0 8px 28px rgba(0,0,0,0.12);
     }
     h2 {
       color: #0073e6;
-      font-size: 28px;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      border-bottom: 3px solid #00c6ff;
+      padding-bottom: 10px;
     }
-    img {
-      width: 100%;
-      border-radius: 8px;
-      margin: 20px 0;
+    p {
+      font-size: 1.125rem;
+      margin-bottom: 20px;
+      text-align: justify;
     }
     ul {
-      padding-left: 20px;
+      margin-left: 20px;
+      margin-bottom: 25px;
+      list-style-type: disc;
     }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
+    ul li {
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-top: 15px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* Comment Section */
+    #comments-section {
+      background: #e9f1fb;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: inset 0 0 12px rgba(0,115,230,0.1);
+    }
+    #comments-section h2 {
+      color: #004080;
+      margin-bottom: 25px;
+    }
+    #comment-form textarea {
+      width: 100%;
+      min-height: 110px;
+      resize: vertical;
+      padding: 15px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: 2px solid #0073e6;
+      margin-bottom: 15px;
+      font-family: inherit;
+    }
+    #comment-form button {
+      background: #0073e6;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-weight: 600;
+    }
+    #comment-form button:hover {
+      background: #005bb5;
+    }
+    .comment {
+      background: white;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    }
+    .comment .author {
+      font-weight: 700;
+      color: #004080;
+      margin-bottom: 5px;
+    }
+    .comment .date {
+      font-size: 0.85rem;
       color: #777;
+      margin-bottom: 10px;
     }
-    .highlight {
-      background: #e0f7fa;
-      padding: 10px 15px;
-      border-left: 5px solid #0073e6;
-      margin: 20px 0;
+    .comment .content {
+      font-size: 1rem;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    footer {
+      background: #0073e6;
+      color: white;
+      padding: 18px 0;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 1.1px;
+      font-size: 1rem;
+      margin-top: auto;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.12);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      main {
+        margin: 20px auto 40px;
+      }
     }
   </style>
 </head>
+
 <body>
   <header>
-    <h1>Ultimate Guide to Making Money Online in 2025</h1>
-    <p>Unlock the tools, strategies, and mindsets to build your income from anywhere.</p>
+    <h1>MakeMoneyFastNow</h1>
+    <p>Your Ultimate Guide to Making Money Online in 2025</p>
+    <nav>
+      <a href="#freelance">Freelancing</a>
+      <a href="#blogging">Blogging</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#courses">Online Courses</a>
+      <a href="#ecommerce">E-commerce</a>
+      <a href="#tips">Success Tips</a>
+      <a href="#comments-section">Comments</a>
+    </nav>
   </header>
 
   <main>
-    <section>
-      <h2>1. Introduction to Earning Online</h2>
-      <p>Online income isn't a myth anymore — it's a booming industry. From side hustles to full-time careers, the internet offers limitless possibilities to earn. Let's explore the most practical and profitable ones.</p>
-      <img src="https://source.unsplash.com/960x480/?freelance,online-business" alt="Earning online illustration">
+    <section id="intro">
+      <h2>Welcome to Your Financial Freedom Journey</h2>
+      <p>
+        If you’re reading this, you’re ready to change your life. The internet is full of opportunities to earn real, sustainable income from the comfort of your home. Whether you're looking for side hustle ideas, a full-time career replacement, or passive income streams, this guide will help you find the best path to achieve your financial goals in 2025.
+      </p>
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1000&q=80" alt="Financial freedom" />
+      <p>
+        Throughout this guide, you’ll find proven methods, tips from experts, and practical advice to kickstart your online income journey. Let’s get started!
+      </p>
     </section>
 
-    <section>
-      <h2>2. Freelancing Platforms</h2>
-      <p>Whether you're a writer, designer, developer, or virtual assistant, freelancing platforms are your starting point:</p>
+    <section id="freelance">
+      <h2>1. Freelancing: Your Skills, Your Terms</h2>
+      <p>
+        Freelancing remains one of the most accessible and flexible ways to earn money online. Platforms like Upwork, Fiverr, and Freelancer connect millions of clients with talented professionals worldwide.
+      </p>
+      <p>Popular freelance skills in 2025 include:</p>
       <ul>
-        <li><strong>Upwork</strong> – Long-term contracts, remote jobs</li>
-        <li><strong>Fiverr</strong> – Micro-services for quick gigs</li>
-        <li><strong>Freelancer.com</strong> – Global competition, great exposure</li>
+        <li>Graphic Design & Illustration</li>
+        <li>Web & Mobile Development</li>
+        <li>Copywriting & Content Creation</li>
+        <li>Digital Marketing & SEO</li>
+        <li>Video Editing & Animation</li>
+        <li>Virtual Assistance</li>
       </ul>
-      <img src="https://source.unsplash.com/960x480/?freelancer,work" alt="Freelancer working">
-    </section>
-
-    <section>
-      <h2>3. Passive Income Ideas</h2>
-      <p>Passive income lets you earn while you sleep. Here are top methods in 2025:</p>
+      <img src="https://images.unsplash.com/photo-1522202229568-3b14e096f906?auto=format&fit=crop&w=900&q=80" alt="Freelancing work" />
+      <p>
+        To get started:
+      </p>
       <ul>
-        <li>Start a blog and earn through affiliate links</li>
-        <li>Create a YouTube channel</li>
-        <li>Sell eBooks or digital products</li>
-        <li>Invest in dividend stocks or REITs</li>
+        <li>Create a compelling profile highlighting your expertise and portfolio.</li>
+        <li>Start with smaller jobs to build reviews and credibility.</li>
+        <li>Communicate clearly and meet deadlines to grow your reputation.</li>
+        <li>Keep learning new skills to stay competitive.</li>
       </ul>
-      <div class="highlight">
-        Tip: Focus on scalable ideas that don’t require you to trade time for money.
-      </div>
     </section>
 
-    <section>
-      <h2>4. Affiliate Marketing</h2>
-      <p>Affiliate marketing is promoting products and earning a commission on every sale made through your referral link. It’s powerful and scalable:</p>
+    <section id="blogging">
+      <h2>2. Blogging: Build Authority and Passive Income</h2>
+      <p>
+        Blogging is still a powerful way to generate income if you’re passionate about a topic. Through quality content, SEO, and monetization strategies like affiliate marketing, sponsored posts, and ad revenue, bloggers earn thousands monthly.
+      </p>
+      <p>Steps to success:</p>
       <ul>
-        <li>Amazon Associates</li>
-        <li>ClickBank</li>
-        <li>ShareASale</li>
-        <li>PartnerStack</li>
+        <li>Choose a niche you love and research keywords.</li>
+        <li>Publish consistent, helpful, and unique content.</li>
+        <li>Optimize your blog for search engines (SEO).</li>
+        <li>Promote your posts on social media platforms.</li>
+        <li>Monetize via Google AdSense, affiliate programs, or digital products.</li>
       </ul>
-      <img src="https://source.unsplash.com/960x480/?affiliate,marketing" alt="Affiliate links">
+      <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80" alt="Blogging setup" />
     </section>
 
-    <section>
-      <h2>5. Online Courses & Coaching</h2>
-      <p>If you have expertise in a field, teaching it online can be lucrative. Platforms like Teachable, Gumroad, and Podia make course creation simple.</p>
-      <div class="highlight">
-        Pro Tip: Use short-form video platforms (Reels, TikTok) to promote your courses.
-      </div>
+    <section id="youtube">
+      <h2>3. YouTube: Video Content for Massive Reach</h2>
+      <p>
+        Video content dominates the web, and YouTube is the king of platforms. From tutorials to entertainment, successful channels can generate revenue via ads, sponsorships, memberships, and merchandise.
+      </p>
+      <p>How to grow:</p>
+      <ul>
+        <li>Focus on a clear niche with an engaged audience.</li>
+        <li>Invest in decent video and audio equipment.</li>
+        <li>Optimize titles, descriptions, and thumbnails.</li>
+        <li>Engage with your viewers through comments and community posts.</li>
+        <li>Collaborate with other creators.</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="YouTube creator" />
     </section>
 
-    <section>
-      <h2>6. Dropshipping & eCommerce</h2>
-      <p>With Shopify or WooCommerce, you can set up online stores. No inventory needed — just list products and let suppliers handle shipping!</p>
-      <img src="https://source.unsplash.com/960x480/?ecommerce,shopify" alt="eCommerce business">
+    <section id="courses">
+      <h2>4. Creating & Selling Online Courses</h2>
+      <p>
+        Sharing your expertise through online courses can be highly profitable. Platforms like Udemy, Teachable, and Skillshare simplify course creation and marketing.
+      </p>
+      <p>Success tips:</p>
+      <ul>
+        <li>Choose a topic with high demand and your unique angle.</li>
+        <li>Create clear, engaging video lessons and resources.</li>
+        <li>Promote your course via social media and email marketing.</li>
+        <li>Engage with students to improve your content.</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=900&q=80" alt="Online course creation" />
     </section>
 
-    <section>
-      <h2>7. Final Thoughts</h2>
-      <p>The online world is evolving fast. To succeed, you need consistency, smart strategies, and a willingness to learn. Whether you're after side income or full-time freedom, 2025 offers incredible potential to make it happen.</p>
+    <section id="ecommerce">
+      <h2>5. E-commerce & Dropshipping: Selling Products Online</h2>
+      <p>
+        E-commerce platforms like Shopify, Etsy, and Amazon let you sell products worldwide. Dropshipping enables you to sell without holding inventory, making startup costs lower.
+      </p>
+      <p>Essentials for success:</p>
+      <ul>
+        <li>Choose trending or niche products with demand.</li>
+        <li>Optimize product pages with clear images and descriptions.</li>
+        <li>Use digital marketing (Facebook ads, Google Ads).</li>
+        <li>Provide excellent customer service.</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1515165562835-c5b6e84dba84?auto=format&fit=crop&w=900&q=80" alt="Ecommerce business" />
     </section>
 
-    <section>
+    <section id="tips">
+      <h2>Top Tips for Long-Term Success in Making Money Online</h2>
+      <p>
+        Making money online is a marathon, not a sprint. Here are some evergreen tips to keep you on the path:
+      </p>
+      <ul>
+        <li><strong>Be consistent:</strong> Regularly create and improve your content or services.</li>
+        <li><strong>Keep learning:</strong> Online trends and tools evolve fast; stay updated.</li>
+        <li><strong>Network:</strong> Connect with like-minded entrepreneurs and freelancers.</li>
+        <li><strong>Invest in tools:</strong> Quality tools can boost your productivity and results.</li>
+        <li><strong>Focus on value:</strong> Always put your audience's needs first.</li>
+        <li><strong>Track progress:</strong> Use analytics and feedback to refine your approach.</li>
+      </ul>
+    </section>
+
+    <section id="comments-section">
       <h2>Comments & Feedback</h2>
-      <div id="disqus_thread"></div>
-      <script>
-        var disqus_config = function () {
-          this.page.url = window.location.href;
-          this.page.identifier = window.location.pathname;
-        };
-        (function() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://https-nihatsirinn-github-io-make-money-online.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view comments powered by Disqus.</noscript>
+      <p>We love hearing from you! Share your thoughts, questions, and success stories below.</p>
+
+      <!-- Comment form -->
+      <form id="comment-form" onsubmit="return addComment(event)">
+        <textarea id="comment-text" placeholder="Write your comment here..." required></textarea>
+        <button type="submit">Submit Comment</button>
+      </form>
+
+      <!-- Comment list -->
+      <div id="comments-list">
+        <!-- Comments will appear here -->
+      </div>
     </section>
   </main>
 
   <footer>
-    &copy; 2025 Make Money Online. All rights reserved.
+    <p>© 2025 MakeMoneyFastNow | Your trusted resource for financial freedom.</p>
   </footer>
+
+  <script>
+    // Simple comment system (demo only, no backend)
+    const commentsList = document.getElementById('comments-list');
+
+    function addComment(e) {
+      e.preventDefault();
+      const text = document.getElementById('comment-text').value.trim();
+      if (!text) return alert('Please write a comment.');
+
+      const commentDiv = document.createElement('div');
+      commentDiv.className = 'comment';
+
+      const now = new Date();
+      const formattedDate = now.toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' });
+
+      commentDiv.innerHTML = `
+        <div class="author">Anonymous</div>
+        <div class="date">${formattedDate}</div>
+        <div class="content">${text.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</div>
+      `;
+
+      commentsList.prepend(commentDiv);
+      e.target.reset();
+    }
+  </script>
+
+  <!-- Disqus embed code -->
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = window.location.href;
+      this.page.identifier = window.location.pathname;
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://nihatsirinn-make-money-online.disqus.com/embed.js';  // Disqus shortname doğru yazıldı
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
 </body>
 </html>
