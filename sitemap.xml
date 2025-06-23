@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Ana Sayfa Tüm İçerik İçin -->
   <url>
     <loc>https://nihatsirinn.github.io/make-money-online/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Görseller -->
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>Freelancing</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>Affiliate Marketing</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>Online Courses</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1502980426475-b83966705988?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>Dropshipping</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>Remote Work</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>Blogging</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>YouTube Channel</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>Stock Photography</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>Print on Demand</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
+      <image:caption>Virtual Assistant</image:caption>
+    </image:image>
   </url>
+
 </urlset>
