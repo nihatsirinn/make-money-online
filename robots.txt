@@ -1,3 +1,10 @@
+# robots.txt for https://nihatsirinn.github.io/make-money-online/
+
 User-agent: *
 Allow: /
+
+# Sitemap location
 Sitemap: https://nihatsirinn.github.io/make-money-online/sitemap.xml
+
+# Crawl-delay önerisi (isteğe bağlı, aşırı yüklememek için)
+# Crawl-delay: 5
