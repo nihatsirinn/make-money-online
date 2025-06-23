@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nihatsirinn.github.io/sitemap/sitemap.xml
+Sitemap: https://nihatsirinn.github.io/sitemap.xml
