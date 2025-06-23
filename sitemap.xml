@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset 
-  xmlns="http://www.sitemap.org/schemas/sitemap/0.9" 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
+  <!-- Tek Sayfa Yapısı, Ana Sayfa URL'si -->
   <url>
-    <loc>https://nihatsirinn.github.io/make-money-online/</loc>
+    <loc>https://nihatsirinn.github.io/</loc>
     <lastmod>2025-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
 
-    <!-- Görseller -->
+    <!-- Sayfadaki Görseller -->
     <image:image>
       <image:loc>https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
       <image:caption>Freelancing</image:caption>
@@ -50,7 +51,6 @@
       <image:loc>https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&amp;fit=crop&amp;w=960&amp;q=80</image:loc>
       <image:caption>Virtual Assistant</image:caption>
     </image:image>
-
   </url>
-  
+
 </urlset>
